@@ -60,7 +60,7 @@ GLUON_SITE_PACKAGES += \
 	kmod-atl2
 endif
 
-DEFAULT_GLUON_RELEASE := 0.0.3~beta$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.1.0~stable$(shell date '+%Y%m%d')
 
 #Saved for future use
 # $(shell git --git-dir=$(this_dir)/.git \
