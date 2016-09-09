@@ -90,5 +90,8 @@ GLUON_PRIORITY ?= 0
 # Languages to include
 GLUON_LANGS ?= en de
 
-# Region code for new TP-Link firmware
+# Region information for regulatory compliance
 GLUON_REGION ?= eu
+
+# Prefer ath10k firmware with 802.11s support
+GLUON_ATH10K_MESH ?= 11s
