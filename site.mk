@@ -24,7 +24,7 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	iwinfo
 
-DEFAULT_GLUON_CHECKOUT := v2016.1.6
+DEFAULT_GLUON_CHECKOUT := v2016.2
 
 # Allow overriding the checkout from the command line
 GLUON_CHECKOUT ?= $(DEFAULT_GLUON_CHECKOUT)
@@ -60,7 +60,7 @@ GLUON_SITE_PACKAGES += \
 	kmod-atl2
 endif
 
-DEFAULT_GLUON_RELEASE := 0.1.2~stable$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.2.0~stable$(shell date '+%Y%m%d')
 
 #Saved for future use
 # $(shell git --git-dir=$(this_dir)/.git \
