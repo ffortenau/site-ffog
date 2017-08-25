@@ -110,13 +110,14 @@ PCI_PACKAGES_NET := \
 	kmod-via-rhine
 # broken
 #	kmod-ixgbe \
+
 # additional packages
-TOOLS_PACKAGES := \
-	iperf \
-	socat \
-	tcpdump \
-	usbutils \
-	vnstat
+#TOOLS_PACKAGES := \
+#	iperf \
+#	socat \
+#	tcpdump \
+#	usbutils \
+#	vnstat
 # broken
 #	pciutils \
 
